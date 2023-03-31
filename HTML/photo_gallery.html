@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Photo Gallery</title>
+    <style>
+        .photos {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          flex-direction: row;
+          max-height: 100vh;
+        }
+        .photos img {
+          margin: 6px;
+          border: 3px solid #302c2c;
+          box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+          max-width: 22vw;
+        }
+        .image:hover{
+          transform: scale(1.1);
+        }
+      </style>
+  </head>
+
+  <main class="photos">
+    <img src="../Assets/fox.jpg" alt="Fox" class="image">
+    <img src="../Assets/leopard.jpg" alt="Leopard" class="image">
+    <img src="../Assets/vulture.jpg" alt="vulture" class="image">
+    <img src="../Assets/panda.jpg" alt="Panda" class="image">
+    <img src="../Assets/tiger.jpg" alt="Tiger" class="image">
+    <img src="../Assets/deer.jpg" alt="Deer" class="image">
+    <img src="../Assets/squirrel.jpg" alt="Squirrel" class="image">
+    <img src="../Assets/boar.jpg" alt="Boar" class="image">
+    <img src="../Assets/elephant.jpg" alt="Elephant" class="image">
+    <img src="../Assets/meerkat.jpg" alt="Meerkat" class="image">
+    <img src="../Assets/polarbear.jpg" alt="polarbear" class="image">
+    <img src="../Assets/wolf.jpg" alt="Wolf" class="image">
+  </main>
+</html>
